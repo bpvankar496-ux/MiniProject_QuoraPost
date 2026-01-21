@@ -1,0 +1,132 @@
+/* Quora Style - Simple & Clean */
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #2e69ff;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Posts - Quora Style with Light Yellow Background */
+.post {
+    background-color: lavenderblush;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user {
+    color: #666;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.95em;
+    margin-bottom: 8px;
+}
+
+.content {
+    color: #1c1c1c;
+    margin: 10px 0 15px 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Links - Quora Blue */
+a {
+    color: #2e69ff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 0.9em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.create-btn {
+    display: inline-block;
+    margin-top: 20px;
+    color: #2e69ff;
+    border: 1px solid #2e69ff;
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+
+.create-btn:hover {
+    background-color: #2e69ff;
+    color: white;
+}
+
+/* Forms */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #2e69ff;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+button {
+    background-color: #2e69ff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.95em;
+}
+
+button:hover {
+    background-color: #1a4fd6;
+}
+
+/* Delete Button */
+form button {
+    background-color: #dc3545;
+    padding: 6px 12px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+form button:hover {
+    background-color: #c82333;
+}
+
+/* Post Detail */
+.post-detail {
+    background-color: blanchedalmond;;
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+}
+
+p {
+    color: #666;
+    margin: 8px 0;
+    font-size: 0.95em;
+}
+
+p strong {
+    color: #333;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Post Detail</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📄 Post Details</h2>
+    
+    <p><strong>Post ID:</strong> <%= post.id %></p>
+    
+    <div class="post-detail">
+      <h3 class="user">@<%= post.username %></h3>
+      <h4><%= post.content %></h4>
+    </div>
+    
+    <div style="margin-top: 20px;">
+      <a href="/posts/<%= post.id %>/edit">✏️ Edit Post</a>
+      <a href="/posts">← Back to All Posts</a>
+    </div>
+  </div>
+</body>
+</html>

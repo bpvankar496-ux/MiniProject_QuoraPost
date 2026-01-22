@@ -71,5 +71,5 @@ app.delete("/posts/:id", (req, res) => {
 
 app.listen(port, () => {
     console.log("listening to port 8080");});
-//aa project n run karva  nodemon index.js lakhvu terminal ma n browser ma localhost:8080/post karvanu
+
 

@@ -1,4 +1,4 @@
-/* Quora Style - Simple & Clean */
+
 body {
     font-family: Arial, sans-serif;
     background-color: blanchedalmond;
@@ -18,7 +18,6 @@ h2 {
     margin-bottom: 15px;
 }
 
-/* Posts - Quora Style with Light Yellow Background */
 .post {
     background-color: lavenderblush;
     padding: 15px;
